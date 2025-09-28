@@ -91,7 +91,11 @@ ezplatform:
 
         site:
             languages: [eng-GB]
-
+        admin:
+            repository: 'default'
+            languages: [eng-GB]
+            # Set admin design theme
+            design: admin
     url_alias:
         slug_converter:
             transformation: 'urlalias_lowercase'
