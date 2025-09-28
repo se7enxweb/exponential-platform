@@ -54,12 +54,15 @@ ezplatform:
 
     # Siteaccess configuration, with one siteaccess per default
     siteaccess:
-        list: [site]
+        list: [site, admin]
         groups:
             site_group: [site]
         default_siteaccess: site
         match:
             URIElement: 1
+            # Map\Host:
+            #    edit.platform.demo.exponential.earth: admin
+            #    platform.demo.exponential.earth: site
 
     # System settings, read in following order: `default`, <siteaccess-group>, <siteacces>, and `global`
     # TIP: For multisite installations organize shared config into SiteAccess groups,
@@ -72,6 +75,11 @@ ezplatform:
             # it is recommended to install clean, then change setting before you start adding binary content, otherwise you'll
             # need to manually modify your database data to reflect this to avoid exceptions.
             var_dir: var/site
+            # Assets configuration
+            assets:
+                icon_sets:
+                    default: '/bundles/ezplatformadminui/img/ez-icons.svg'
+                default_icon_set: 'default'
             content:
                 # As we by default enable EzSystemsPlatformHttpCacheBundle which is designed to expire all affected cache
                 # on changes, and as error / redirects now have separate ttl, we easier allow ttl to be greatly increased
