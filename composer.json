@@ -154,10 +154,7 @@
         "sort-packages": true,
         "bin-dir": "bin/",
         "allow-plugins": {
-            "ezsystems/ezpublish-legacy-installer": false,
             "php-http/discovery": true,
-            "se7enxweb/exponential-legacy-installer": true,
-            "se7enxweb/ezpublish-legacy-installer": true,
             "symfony/flex": true,
             "symfony/thanks": true
         }
