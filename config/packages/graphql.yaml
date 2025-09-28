@@ -1,7 +1,7 @@
 overblog_graphql:
     definitions:
         mappings:
-            auto_discover: false
+            auto_discover: true
             types:
                 -   type: yaml
                     dir: "%kernel.project_dir%/config/graphql/types"

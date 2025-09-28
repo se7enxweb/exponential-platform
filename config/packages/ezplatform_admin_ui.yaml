@@ -24,17 +24,13 @@ ezplatform:
             subtree_paths:
                 content: /1/2/
                 media: /1/43/
-            assets:
-                icon_sets:
-                    default_icons: /bundles/ezplatformadminui/img/ez-icons.svg
-                default_icon_set: default_icons
 
 jms_translation:
     configs:
         admin:
             dirs:
-                - '%kernel.project_dir%/vendor/ezsystems/ezplatform-admin-ui/src'
-            output_dir: '%kernel.project_dir%/vendor/ezsystems/ezplatform-admin-ui/src/bundle/Resources/translations/'
+                - '%kernel.project_dir%/vendor/se7enxweb/ezplatform-admin-ui/src'
+            output_dir: '%kernel.project_dir%/vendor/se7enxweb/ezplatform-admin-ui/src/bundle/Resources/translations/'
             excluded_dirs: [Behat, Tests, node_modules]
             extractor:
                 - ez_policy
