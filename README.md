@@ -9,7 +9,7 @@
 
 ## Exponential Platform Project Notice
 
-> "Please Note: This project is not associated with the original eZ Publish software or its original developer, eZ Systems."
+> "Please Note: This project is not associated with the original eZ Publish software or its original developer, eZ Systems or Ibexa."
 
 This is an independent, 7x + community-driven continuation of the platform. The Exponential Platform codebase is stewarded and evolved by [7x (se7enx.com)](https://se7enx.com) and the open-source community of developers and integrators who have relied on it for decades.
 
@@ -297,20 +297,15 @@ Every contribution goes directly toward maintaining PHP compatibility, patching 
 
 Copyright (C) 1998 - 2026 7x. All rights reserved.
 
-Copyright (C) 1999-2025 Ibexa AS (formerly eZ Systems AS). All rights reserved.
+Copyright (C) 1999-2020 Ibexa AS (formerly eZ Systems AS). All rights reserved.
 
 ---
 
 ## LICENSE
 
-This source code is available under the following licenses:
+This source code is available under the following license:
 
-**A** — Ibexa Business Use License Agreement (Ibexa BUL), version 2.4 or later.
-See: https://www.ibexa.co/software-information/licenses-and-agreements
-
-**AND**
-
-**B** — GNU General Public License, version 2.
+GNU General Public License, version 2.
 See: https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 
 ---
